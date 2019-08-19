@@ -31,7 +31,7 @@
           if (err.error === 'services/chatkit/user_already_exists') {
             res.sendStatus(200);
           } else {
-            res.status(err.status).json(err);
+            res.status(err.status).json(err);  
           }
         });
     });
